@@ -8,6 +8,6 @@ class Index extends Controller
     {
         $data = ['title' => input('post.title')];
 	$result = Db::name('user') -> insert($data);
-     echo 333;          
+     echo 444;          
     }
 }
